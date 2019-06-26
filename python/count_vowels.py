@@ -6,6 +6,7 @@ def count_vowels(string):
 		for vowel in vowels:
 			if char == vowel:
 				vowel_count+=1
+				break
 	return vowel_count
 
 print count_vowels("This is a sentence with vowels")
